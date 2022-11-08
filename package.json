@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
   "scripts": {
     "serve": "webpack serve --mode development",
     "tailwind:dev": "tailwindcss build src/assets/css/tailwind.css -o src/assets/css/tailwind.output.css",

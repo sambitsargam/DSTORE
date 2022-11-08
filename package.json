@@ -2,6 +2,22 @@
   "name": "testing",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
+  "author": "“sambitsargam”,
+  "license": "MIT"
+  "scripts": {
+    "serve": "webpack serve --mode development",
+    "tailwind:dev": "tailwindcss build src/assets/css/tailwind.css -o src/assets/css/tailwind.output.css",
+    "tailwind:build": "cross-env NODE_ENV=production postcss src/assets/css/tailwind.css -o src/assets/css/tailwind.output.css",
+    "prestart": "npm run tailwind:dev",
+    "start": "react-app-rewired start",
+    "prebuild": "npm run tailwind:build",
+    "build": "react-app-rewired build --openssl-legacy-provider && echo '/* /index.html 200' | cat >build/_redirects",
+    "cz": "git-cz",
+    "release": "release-it",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@babel/core": "^7.19.0",
     "@babel/preset-env": "^7.19.0",
@@ -78,19 +94,6 @@
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
   },
-  "scripts": {
-    "serve": "webpack serve --mode development",
-    "tailwind:dev": "tailwindcss build src/assets/css/tailwind.css -o src/assets/css/tailwind.output.css",
-    "tailwind:build": "cross-env NODE_ENV=production postcss src/assets/css/tailwind.css -o src/assets/css/tailwind.output.css",
-    "prestart": "npm run tailwind:dev",
-    "start": "react-app-rewired start",
-    "prebuild": "npm run tailwind:build",
-    "build": "react-app-rewired build --openssl-legacy-provider && echo '/* /index.html 200' | cat >build/_redirects",
-    "cz": "git-cz",
-    "release": "release-it",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
   "devDependencies": {
     "@release-it/conventional-changelog": "1.1.4",
     "@svgr/webpack": "5.4.0",
@@ -164,7 +167,4 @@
       "last 1 safari version"
     ]
   },
-  "main": "index.js",
-  "author": "“sensurusirupus” <sensurusirupus@gmail.com>",
-  "license": "MIT"
 }

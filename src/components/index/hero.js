@@ -29,8 +29,8 @@ export default function Hero() {
               <span className="text-transparent text-blue-400">
                 Destore.
               </span>{" "}
-            </h1>
-            <h1 className="text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:text-2xl lg:leading-tight xl:text-5xl xl:leading-tight dark:text-white">
+            </h1> 
+            <h1 className="text-3xl font-bold leading-snug tracking-tight text-white-800 lg:text-2xl lg:leading-tight xl:text-5xl xl:leading-tight dark:text-white">
               Get <span ref={el}></span> All in one app
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-600 lg:text-xl xl:text-2xl dark:text-gray-300">

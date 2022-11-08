@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "main": "index.js",
-  "author": "“sambitsargam”,
+  "author": “sambitsargam”,
   "license": "MIT"
   "scripts": {
     "serve": "webpack serve --mode development",

@@ -93,7 +93,7 @@ function Modals() {
     <>
       <PageTitle>Chat</PageTitle>
 
-      <div class="flex h-screen antialiased text-gray-800">
+      <div class="flex h-screen antialiased text-blue-800">
         <div class="flex md:flex-row flex-col h-full w-full overflow-x-hidden">
           <div class="flex flex-col px-4 mb-5 mt-6 dark:bg-gray-700 rounded-lg  w-full md:w-64 bg-white flex-shrink-0">
             <div class="w-full mt-4 bg-white rounded-lg border border-gray-200  dark:bg-gray-800 dark:border-gray-700">

@@ -14,7 +14,7 @@ import PopupWidget from "../components/index/popupWidget";
 export default function Home() {
   return (
     <>
-      <div className="bg-gray-800">
+      <div className="bg-white-800">
         <Navbar />
         <Hero />
         <SectionTitle

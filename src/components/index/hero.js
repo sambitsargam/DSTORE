@@ -33,7 +33,7 @@ export default function Hero() {
             <h1 className="text-3xl font-bold leading-snug tracking-tight text-gray-800 lg:text-2xl lg:leading-tight xl:text-5xl xl:leading-tight dark:text-white">
               Get <span ref={el}></span> All in one app
             </h1>
-            <p className="py-5 text-xl leading-normal text-white-600 lg:text-xl xl:text-2xl dark:text-gray-300">
+            <p className="py-5 text-xl leading-normal text-white text-opacity-90 lg:text-xl">
               Destore a decentralise storage online Platforms with NFT and
               Chatting capabilities.Users can choose to store their data on IPFS
               or Web3 Storage.

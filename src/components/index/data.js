@@ -15,7 +15,7 @@ const benefitOne = {
   // desc: "ou have the freedom to choose whether to store your data on IPFS or Web3 storage.",
 
   image: benefitTwoImg,
-  bullets: [ 
+  bullets: [
     {
       title: "File manager",
       desc: "Directly browse your files from anywhere in the world",

@@ -15,6 +15,19 @@
  
  @sambitsargam
  
+## How to run the project on your system:
+```
+git clone https://github.com/sambitsargam/DSTORE.git
+```
+ ```
+ cd DSTORE
+ ```
+ ```
+ yarn install
+ ```
+ ```
+ yarn start
+ ```
  ### MIT Licence
  ```
  MIT License

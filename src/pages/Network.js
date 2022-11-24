@@ -22,7 +22,7 @@ export default class Network extends Component {
     }
   }
   async getUsersDatas(){
-    const resp = await axios.get('https://api-v2.blockpour.com/api/stats/networks/historical/ethereum?days=10')
+    const resp = await axios.get('https://api-v2.blockpour.com/api/stats/networks/historical/ethereum?days=30')
     console.log(resp.data.data)
     this.setState({loading:false, users: resp.data.data})
   }
@@ -48,7 +48,7 @@ export default class Network extends Component {
     return (
       <div>
          <Button color="gradient" className="mt-6">
-      <center  >network historical statistics ...............</center>
+      <center  >Network Historical Statistics Etherium Network only.</center>
       </Button>
       <ReactTable  
       data={this.state.users}  

@@ -14,6 +14,7 @@ const NFTDashboard = lazy(() => import("../pages/NFTDashboard"));
 const Page404 = lazy(() => import("../pages/404"));
 const Blank = lazy(() => import("../pages/Blank"));
 const Folder = lazy(() => import("../pages/Folder"));
+const Market = lazy(() => import("../pages/Market"));
 /**
  * ⚠ These are internal routes!
  * They will be rendered inside the app, using the default `containers/Layout`.
@@ -77,6 +78,10 @@ const routes = [
     path: "/folder/:foldername/:id",
     component: Folder,
   },
+  {
+    path: "/market",
+    component: Market,
+  }
 ];
 
 export default routes;

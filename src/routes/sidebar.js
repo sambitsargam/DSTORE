@@ -42,6 +42,11 @@ const routes = [
     icon: <ChatBubbleLeftRightIcon className="h-6" />,
     name: "Chat",
   },
+  {
+    path: "/app/market",
+    icon: <SparklesIcon className="h-6" />,
+    name: "Current Market",
+  },
   // {
   //   path: "/app/nft",
   //   icon: <SparklesIcon className="h-6" />,

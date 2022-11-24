@@ -43,9 +43,18 @@ const routes = [
     name: "Chat",
   },
   {
-    path: "/app/market",
-    icon: <SparklesIcon className="h-6" />,
+    icon: "SparklesIcon",
     name: "Current Market",
+    routes: [
+      {
+        path: "/app/pool",
+        name: "Pool Statistics",
+      },
+      {
+        path: "/app/Network",
+        name: "Network Statistics",
+      },
+    ],
   },
   // {
   //   path: "/app/nft",

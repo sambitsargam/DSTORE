@@ -21,14 +21,14 @@ export default class Network extends Component {
       loading:true
     }
   }
-  async getUsersData(){
+  async getUsersDatas(){
     const res = await axios.get('https://api-v2.blockpour.com/api/stats/networks/historical/ethereum?days=10')
     console.log(res.data.data)
     this.setState({loading:false, users: res.data.data})
   }
 
   componentDidMount(){
-    this.getUsersData()
+    this.getUsersDatas()
   }
   render() {
     const columns = [{  

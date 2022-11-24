@@ -43,19 +43,29 @@ const routes = [
     name: "Chat",
   },
   {
-    icon: "SparklesIcon",
-    name: "Current Market",
-    routes: [
-      {
-        path: "/app/pool",
-        name: "Pool Statistics",
-      },
-      {
-        path: "/app/Network",
-        name: "Network Statistics",
-      },
-    ],
+    path: "/app/pool",
+    icon: <SparklesIcon className="h-6" />,
+    name: "Pool stats",
   },
+  {
+    path: "/app/network",
+    icon: <SparklesIcon className="h-6" />,
+    name: "Market Stats",
+  },
+  // {
+  //   icon: "SparklesIcon",
+  //   name: "Current Market",
+  //   routes: [
+  //     {
+  //       path: "/app/pool",
+  //       name: "Pool Statistics",
+  //     },
+  //     {
+  //       path: "/app/Network",
+  //       name: "Network Statistics",
+  //     },
+  //   ],
+  // },
   // {
   //   path: "/app/nft",
   //   icon: <SparklesIcon className="h-6" />,

@@ -48,7 +48,7 @@ export default class Network extends Component {
     return (
       <div>
          <Button color="gradient" className="mt-6">
-      <center  >Network Historical Statistics Etherium Network only.</center>
+      <center  >Network Historical Statistics (previous 30days data) Etherium Network only.</center>
       </Button>
       <ReactTable  
       data={this.state.users}  

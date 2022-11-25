@@ -22,7 +22,7 @@ export default class Pool extends Component {
     }
   }
   async getUsersData(){
-    const res = await axios.get('https://api-v2.blockpour.com/api/stats/pools?sort=volume_usd&network=ethereum&limit=20')
+    const res = await axios.get('https://api-v2.blockpour.com/api/stats/pools?sort=volume_usd&network=ethereum&limit=25')
     console.log(res.data.data)
     this.setState({loading:false, users: res.data.data})
   }
@@ -48,7 +48,7 @@ export default class Pool extends Component {
     return (
       <div>
          <Button color="gradient" className="mt-6">
-      <center  >Pool Statistics(all exchanges big amount of usd pool details are showing)...............</center>
+      <center  >Pool Statistics(all exchanges top 25 high amount of usd pool details are showing)...............</center>
       </Button>
       <ReactTable  
       data={this.state.users}  

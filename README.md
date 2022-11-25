@@ -8,7 +8,7 @@
     * Easily share files with friends and family.
   * ### Mobile compatible
     * Access your files anytime and anywhere
-  * NFT Token
+  * ### NFT Token
     * Mint NFT directly from files saved on Destore
     
  ## Destore has been implemented in order to reduce the dependency on centralized services like Dropbox and Google Drive where users are dependent on a single point of failure. It will give you complete control over your data, right from its inception.
